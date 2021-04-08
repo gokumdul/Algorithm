@@ -2,11 +2,10 @@
 // 11724 번
 // 연결 요소의 개수
 
-// DFS
+// DFS, undirected graph
 
 #include <iostream>
 #include <vector>
-#include <cstring>
 
 using namespace std;
 
@@ -36,7 +35,7 @@ int main() {
 	}
 
 	int cnt = 0;
-	for (int i = 0; i <= N; i++) {
+	for (int i = 1; i <= N; i++) {
 		if (!isVisited[i]) {
 			dfs(i);
 			cnt++;
