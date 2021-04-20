@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\DFS\\DFS",
+    "\\DP",
+    "\\DP\\DP",
     "\\Greedy Algorithm\\Greedy Algorithm",
-    "\\Test\\Test",
     "\\완전탐색\\완전탐색"
   ],
   "SelectedNode": "\\완전탐색",
