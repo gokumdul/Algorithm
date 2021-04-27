@@ -8,6 +8,8 @@
 #include <vector>
 #include <iostream>
 
+const double gravity{ 9.8 };
+
 using namespace std;
 
 int solution(int m, int n, vector<vector<int>> puddles) {
@@ -42,4 +44,11 @@ int solution(int m, int n, vector<vector<int>> puddles) {
 	}
 
 	return ans[n][m];
+}
+
+int main() {
+	cout << gravity << endl;
+
+
+	return 0;
 }
