@@ -2,7 +2,7 @@
 // lvl1
 // 완주하지 못한 선수
 
-// 풀이 2
+// 풀이 2 (효율성 성공)
 
 // 해시
 
@@ -11,9 +11,8 @@
   다음번에는 unordered map 라이브러리를 이용해서 해쉬를 이용해 풀어야겠다.
  */
 
-#include <vector>
 #include <string>
-#include <iostream>
+#include <vector>
 #include <algorithm>
 
 using namespace std;
@@ -27,11 +26,4 @@ string solution(vector<string> participant, vector<string> completion) {
 		}
 	}
 	return participant[participant.size() - 1];
-}
-
-int main() {
-	vector<string> a = { "marina", "josipa", "nikola", "vinko", "filipa" };
-	vector<string> b = { "josipa", "filipa", "marina", "nikola" };
-	cout << solution(a, b) << endl;
-	return 0;
 }
