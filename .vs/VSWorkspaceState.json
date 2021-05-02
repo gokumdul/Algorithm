@@ -2,10 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\Test",
-    "\\Test\\Test",
-    "\\완전탐색",
-    "\\완전탐색\\완전탐색"
+    "\\Test\\Test"
   ],
-  "SelectedNode": "\\Test\\Test",
+  "SelectedNode": "\\Test\\Test\\p1_키패드 누르기.cpp",
   "PreviewInSolutionExplorer": false
 }

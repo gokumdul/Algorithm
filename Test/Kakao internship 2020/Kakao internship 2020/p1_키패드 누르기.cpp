@@ -13,7 +13,7 @@ using namespace std;
 string solution(vector<int> numbers, string hand) {
 	string answer = "";
 	int leftHand = 10, rightHand = 12, leftDist = 0, rightDist = 0;
-	
+
 	for (int i = 0; i < numbers.size(); i++) {
 		if (numbers[i] == 1 || numbers[i] == 4 || numbers[i] == 7) {
 			answer += "L";
