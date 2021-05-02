@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\kakao internship">
+      <UniqueIdentifier>{375fe58b-8b57-4819-98ba-1cd3fa5a4423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\kakao internship\2020">
+      <UniqueIdentifier>{4351d174-430f-484e-a6ba-7a2f1cb36cb5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test.cpp">
@@ -23,6 +29,9 @@
     </ClCompile>
     <ClCompile Include="p2.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="p1_키패드 누르기.cpp">
+      <Filter>소스 파일\kakao internship\2020</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
